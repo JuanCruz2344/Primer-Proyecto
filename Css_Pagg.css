@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color:#3e7e11a4;  /*eeebdd*/
+}
+
+.header{
+    background-color: #403B3B; /*#8C5230*/
+    text-align: center;
+    padding: 10px; 
+    font-family:fantasy;
+    color: rgb(202, 164, 40); /*#262626*/
+    /*border: 2px solid rgb(63, 54, 54);*/
+
+    /*color blanco gris #eeebdd*/
+
+    /*color negro rgb(37, 29, 29)*/
+} 
+
+.nav{
+    background-color: #252222;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A7A7A6;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    /* #20D169 color verde */
+    
+}
+
+.nav li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #7F7F7F;
+    padding: 15px;
+    display: block;
+}
+
+.nav li a:hover{
+    color: white;
+}
+
+/*.body{
+    background-color: #eeebdd;
+    padding-bottom: 1000px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}*/
+
+.button-add{
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #eeebdd; 
+    color: black;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+      
+.button-add:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.product-container h3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.page-content{
+    padding-bottom: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: #eeebdd;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.product-container img{
+    width: 300px;
+    height: 300px;
+}
+
+.img-inicio{
+    margin: 15px;
+    padding: 20px 20px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: #eeebdd;
+}
+
+.img-inicio:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.img-inicio img{
+    width: 300px;
+    height: 300px;
+}
+
+.TextoI{
+    margin: 15px;
+    padding: 2px 16px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.TextoI h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgMaps{
+    margin: 20px;
+    text-align: center;
+}
+
+.info{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer{
+    background-color: #252222;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A7A7A6;
+    text-align: center;
+    text-decoration: none;
+}
